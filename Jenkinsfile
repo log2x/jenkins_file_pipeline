@@ -6,6 +6,7 @@ pipeline {
 			steps {
 
 				echo "starting Re_building。。。。。"
+				echo "$COUNTRY"
 				sh "./echo.sh"
 			}
 			post {
