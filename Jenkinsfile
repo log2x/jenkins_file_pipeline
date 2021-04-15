@@ -4,7 +4,9 @@ pipeline {
 	stages {
 		stage("re_build") {
 			steps {
+
 				echo "starting Re_building。。。。。"
+				sh "./echo.sh"
 			}
 			post {
 				always {
